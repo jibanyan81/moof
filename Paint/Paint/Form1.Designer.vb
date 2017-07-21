@@ -50,6 +50,10 @@ Partial Class Form1
         Me.Button20 = New System.Windows.Forms.Button()
         Me.Button21 = New System.Windows.Forms.Button()
         Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.Button22 = New System.Windows.Forms.Button()
+        Me.Button23 = New System.Windows.Forms.Button()
+        Me.Button24 = New System.Windows.Forms.Button()
+        Me.Button25 = New System.Windows.Forms.Button()
         Me.Panel1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -285,6 +289,10 @@ Partial Class Form1
         '
         'Panel1
         '
+        Me.Panel1.Controls.Add(Me.Button25)
+        Me.Panel1.Controls.Add(Me.Button24)
+        Me.Panel1.Controls.Add(Me.Button23)
+        Me.Panel1.Controls.Add(Me.Button22)
         Me.Panel1.Controls.Add(Me.Button1)
         Me.Panel1.Controls.Add(Me.Button13)
         Me.Panel1.Controls.Add(Me.Button12)
@@ -305,6 +313,42 @@ Partial Class Form1
         Me.Panel1.Name = "Panel1"
         Me.Panel1.Size = New System.Drawing.Size(287, 625)
         Me.Panel1.TabIndex = 25
+        '
+        'Button22
+        '
+        Me.Button22.Location = New System.Drawing.Point(61, 208)
+        Me.Button22.Name = "Button22"
+        Me.Button22.Size = New System.Drawing.Size(75, 23)
+        Me.Button22.TabIndex = 21
+        Me.Button22.Text = "Square"
+        Me.Button22.UseVisualStyleBackColor = True
+        '
+        'Button23
+        '
+        Me.Button23.Location = New System.Drawing.Point(61, 163)
+        Me.Button23.Name = "Button23"
+        Me.Button23.Size = New System.Drawing.Size(75, 23)
+        Me.Button23.TabIndex = 22
+        Me.Button23.Text = "Circle"
+        Me.Button23.UseVisualStyleBackColor = True
+        '
+        'Button24
+        '
+        Me.Button24.Location = New System.Drawing.Point(61, 297)
+        Me.Button24.Name = "Button24"
+        Me.Button24.Size = New System.Drawing.Size(75, 23)
+        Me.Button24.TabIndex = 23
+        Me.Button24.Text = "Oval"
+        Me.Button24.UseVisualStyleBackColor = True
+        '
+        'Button25
+        '
+        Me.Button25.Location = New System.Drawing.Point(61, 249)
+        Me.Button25.Name = "Button25"
+        Me.Button25.Size = New System.Drawing.Size(75, 23)
+        Me.Button25.TabIndex = 24
+        Me.Button25.Text = "Rectangle"
+        Me.Button25.UseVisualStyleBackColor = True
         '
         'Form1
         '
@@ -358,4 +402,8 @@ Partial Class Form1
     Friend WithEvents Button20 As Button
     Friend WithEvents Button21 As Button
     Friend WithEvents Panel1 As Panel
+    Friend WithEvents Button25 As Button
+    Friend WithEvents Button24 As Button
+    Friend WithEvents Button23 As Button
+    Friend WithEvents Button22 As Button
 End Class
