@@ -134,11 +134,11 @@
         thickness = 2
     End Sub
 
-    Private Sub RadioButton1_CheckedChanged(sender As Object, e As EventArgs) Handles RadioButton1.CheckedChanged
-        mybrush.Color = (Color.Gold)
-    End Sub
-
-    Private Sub RadioButton2_CheckedChanged(sender As Object, e As EventArgs) Handles RadioButton2.CheckedChanged
-        mybrush.Color = (Color.IndianRed)
+    Private Sub Form1_MouseClick(sender As Object, e As MouseEventArgs) Handles Me.MouseClick
+        If t Then
+            Dim draw As System.Drawing.Graphics
+            draw = Me.CreateGraphics
+            draw.FillEllipse(mybrush, MousePosition.X - 10, MousePosition.Y - 35, thickness, thickness)
+        End If
     End Sub
 End Class
