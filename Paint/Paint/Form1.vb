@@ -133,4 +133,12 @@
     Private Sub Button20_Click(sender As Object, e As EventArgs) Handles Button20.Click
         thickness = 2
     End Sub
+
+    Private Sub RadioButton1_CheckedChanged(sender As Object, e As EventArgs) Handles RadioButton1.CheckedChanged
+        mybrush.Color = (Color.Gold)
+    End Sub
+
+    Private Sub RadioButton2_CheckedChanged(sender As Object, e As EventArgs) Handles RadioButton2.CheckedChanged
+        mybrush.Color = (Color.IndianRed)
+    End Sub
 End Class

@@ -9,3 +9,14 @@ c:\users\cclc\documents\visual studio 2017\Projects\Paint\Paint\obj\Debug\Paint.
 c:\users\cclc\documents\visual studio 2017\Projects\Paint\Paint\obj\Debug\Paint.exe
 c:\users\cclc\documents\visual studio 2017\Projects\Paint\Paint\obj\Debug\Paint.xml
 c:\users\cclc\documents\visual studio 2017\Projects\Paint\Paint\obj\Debug\Paint.pdb
+C:\Users\CCLC\Documents\GitHub\moof\Paint\Paint\bin\Debug\Paint.exe.config
+C:\Users\CCLC\Documents\GitHub\moof\Paint\Paint\bin\Debug\Paint.exe
+C:\Users\CCLC\Documents\GitHub\moof\Paint\Paint\bin\Debug\Paint.pdb
+C:\Users\CCLC\Documents\GitHub\moof\Paint\Paint\bin\Debug\Paint.xml
+C:\Users\CCLC\Documents\GitHub\moof\Paint\Paint\obj\Debug\Paint.vbprojResolveAssemblyReference.cache
+C:\Users\CCLC\Documents\GitHub\moof\Paint\Paint\obj\Debug\Paint.Form1.resources
+C:\Users\CCLC\Documents\GitHub\moof\Paint\Paint\obj\Debug\Paint.Resources.resources
+C:\Users\CCLC\Documents\GitHub\moof\Paint\Paint\obj\Debug\Paint.vbproj.GenerateResource.Cache
+C:\Users\CCLC\Documents\GitHub\moof\Paint\Paint\obj\Debug\Paint.exe
+C:\Users\CCLC\Documents\GitHub\moof\Paint\Paint\obj\Debug\Paint.xml
+C:\Users\CCLC\Documents\GitHub\moof\Paint\Paint\obj\Debug\Paint.pdb
