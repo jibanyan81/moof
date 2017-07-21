@@ -166,7 +166,6 @@
         square = False
         Dim draw As System.Drawing.Graphics
         draw = Me.CreateGraphics
-        draw.FillEllipse(mybrush, 300, 300, 100, 100)
     End Sub
 
     Private Sub Button22_Click(sender As Object, e As EventArgs) Handles Button22.Click
@@ -176,7 +175,6 @@
         circle = False
         Dim draw As System.Drawing.Graphics
         draw = Me.CreateGraphics
-        draw.FillRectangle(mybrush, 300, 300, 100, 100)
     End Sub
 
     Private Sub Button25_Click(sender As Object, e As EventArgs) Handles Button25.Click
@@ -185,8 +183,7 @@
         oval = False
         square = false
         Dim draw As System.Drawing.Graphics
-            draw = Me.CreateGraphics
-        draw.FillRectangle(mybrush, 300, 300, 150, 100)
+        draw = Me.CreateGraphics
     End Sub
 
     Private Sub Button24_Click(sender As Object, e As EventArgs) Handles Button24.Click
@@ -196,6 +193,5 @@
         rectangle = False
         Dim draw As System.Drawing.Graphics
         draw = Me.CreateGraphics
-        draw.FillEllipse(mybrush, 300, 300, 150, 100)
     End Sub
 End Class
